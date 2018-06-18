@@ -12,3 +12,8 @@ def first_element(array)
   first = array.shift
   return first
 end
+
+def third_element(array)
+  third = array[2]
+  return third
+end

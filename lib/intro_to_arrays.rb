@@ -17,3 +17,8 @@ def third_element(array)
   third = array[2]
   return third
 end
+
+def last_element(array)
+  last = array.pop
+  return last
+end
